@@ -1,0 +1,506 @@
+:root {
+    /* ### Primary */
+
+--Strong-Cyan: #26baa4;
+--Light-Blue: #6173ff;
+
+/* ### Neutral */
+
+--Dark-Grayish-Blue: hsl(210, 10%, 33%);
+--Grayish-Blue: hsl(201, 11%, 66%);
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+/* header */
+.header-image {
+    height: 30vh;
+    background-image: url(images/bg-header-desktop.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-25px);
+}
+.header-text-content{
+width: 660px;
+}
+.header-heading{
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+    font-size: 42px;
+}
+.header-description{
+    font-size: 18px;
+color: var(--Grayish-Blue);
+}
+.header-button{
+    margin-top: 30px;
+}
+.header-btn-ios{
+    padding: 13px 0;
+    text-align: center;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--Strong-Cyan);
+    color: white;
+    font-weight: 600;
+    margin-right:10px;
+    box-shadow: 0px 3px 9px 1px #26baa4de;
+    transition: .5s;
+}
+.header-btn-ios:hover{
+    background-color: #26baa4de;
+    transform: translateY(2px);
+
+}
+.header-btn-mac{
+    padding: 13px 0;
+    text-align: center;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--Light-Blue);
+    color: white;
+    font-weight: 600;
+    box-shadow: 0px 3px 9px 1px #6173ffcf;
+    transition: .5s;
+}
+.header-btn-mac:hover{
+    background-color: #6173ffcf;
+    transform: translateY(2px);
+}
+
+/* section snippets */
+.section-snippets{
+    margin-top: 150px;
+}
+.snippets-title{
+    text-align: center;
+    width: 685px;
+    margin: auto;
+}
+.snippets-title-hedaing{
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.snippets-title-description{
+    color: var(--Grayish-Blue);
+    font-size: 18px;
+}
+.snippets-content{
+    margin-top: 70px !important;
+}
+.snippets-image{
+    overflow: hidden;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+}
+.snippets-img{
+    width: 82%;
+    transform: translateX(-50px);
+}
+.snippets-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 !important;
+}
+.snippets-text-features{
+    width: 340px;
+    margin-top: 39px;
+}
+.features-heading{
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+.features-description{
+    color: var(--Grayish-Blue);
+    line-height: 27px;
+}
+/* section clipboard */
+.section-clipboard{
+    margin: 150px 0;
+}
+.clipboard-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.clipboard-text{
+    text-align: center;
+    width: 600px;
+    margin-bottom: 80px;
+}
+.clipboard-heading{
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+.clipboard-description{
+    color: var(--Grayish-Blue);
+    font-size: 18px;
+}
+.clipboard-img{
+    width: 100%;
+}
+/* section workflow */
+
+.section-workflow{
+    text-align: center;
+    margin: 100px 0;
+}
+.workflow-heading{
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 600;
+    font-size:38px;
+    margin-bottom: 20px;
+}
+.workflow-description{
+    color:var(--Grayish-Blue);
+    font-size:18px;
+}
+.workflow-features-content{
+    padding: 0 !important ;
+    margin: 0 !important ;
+}
+.workflow-features{
+    margin: 70px 0 150px 0 !important;
+    justify-content: space-evenly;
+}
+.workflow-features-text{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.workflow-features-image{
+    height: 40px;
+}
+.workflow-features-heading{
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.workflow-features-description{
+    color: var(--Grayish-Blue);
+    margin: 0 !important;
+    width: 89%;
+}
+.workflow-logo{
+    width: 100%;
+    height: 151px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.workflow-logo-image{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 !important;
+}
+/* section-download */
+.section-download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0;
+}
+.download-text{
+    text-align: center;
+    width: 700px;
+}
+.download-heading{
+    font-weight: 600;
+    font-size:38px ;
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 20px;
+}
+.download-description{
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+}
+/* footer */
+.footer{
+    background-color: #e9ecef;
+    padding: 30px 0 !important;
+}
+.footer-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-img{
+    width: 43.531px;
+}
+.footer-links-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-links{
+    padding: 0 !important;
+}
+.icon-link{
+    margin-right: 25px;
+    color: var(--Dark-Grayish-Blue);
+    font-size: 25px;
+    transition: .5s;
+}
+
+.icon-link:hover{
+color: var(--Strong-Cyan);
+transform: translateY(-2px);
+cursor: pointer;
+}
+
+.footer-link{
+    display: block;
+    color: var(--Dark-Grayish-Blue);
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 16px;
+}
+.footer-link:hover{
+    color:var(--Strong-Cyan);
+    transform: translateY(-2px);
+}
+
+
+@media(max-width:975px){
+    
+    .snippets-img{
+        width: 95%;
+    }
+    .snippets-text-features{
+        width: 90%;
+    }
+    .workflow-features-content{
+        width:30% !important;
+    }
+    .workflow-logo-image{
+        height: 151px;
+    }
+.workflow-img{
+    width: 100%;
+}
+.workflow-features-description{
+    width: 100%;
+}
+}
+@media(max-width:750px) {
+    /* header */
+    .header-image{
+        background-image: url(images/bg-header-mobile.png);
+    }
+    .header-text-content{
+        width: 348px;
+        }
+        .header-heading{
+            font-size: 35px;
+        }
+        .header-button{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 100%;
+            align-items: center;
+        }
+        .header-btn-ios{
+            margin-right: 0;
+            width: 70%;
+        }
+        .header-btn-mac{
+            width: 70%;
+        }
+        /* section snippets */
+        .section-snippets{
+            margin-top: 100px;
+        }
+        .snippets-title{
+            width: 332.391px;
+        }
+        .snippets-title-hedaing{
+            font-size: 35px;
+        }
+        .snippets-content{
+            flex-direction: column;
+            align-items: center;
+        }
+        .snippets-image{
+            width: 100% !important;
+            justify-content: center;
+        }
+        .snippets-img{
+            transform: none;
+            width: 82%;
+        }
+        .snippets-text {
+            width: 100% !important;
+            align-items: center;
+        }
+        .snippets-text-features{
+            width: 298px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        /* section clipboard */
+        .clipboard-text{
+            width: 355.594px;
+        }
+        .clipboard-heading{
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+        /* section workflow */
+        .workflow-text{
+            width: 300px;
+            margin: 0 auto;
+        }
+        .workflow-features{
+            flex-direction: column;
+            align-items: center;
+            gap:50px
+        }
+        .workflow-features-content{
+            width: 100% !important;
+            display: flex;
+            justify-content: center;
+        }
+        .workflow-heading{
+            font-size: 35px;
+        }
+        .workflow-features-text{
+            width: 318px;
+        }
+        .workflow-logo{
+            flex-direction: column;
+            height: auto;
+        }
+        .workflow-logo-image{
+            width: 100% !important; 
+        }
+        .workflow-img{
+            width: 165px;
+        }
+        /* section download */
+        .download-text{
+            width: 345.406px;
+        }
+        .download-heading{
+            font-size: 34px;
+        }
+        .footer{
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 0 !important;
+        }
+        .footer-links {
+            width: 100% !important;
+            text-align: center;
+            flex-direction: column;
+        }
+        .footer-img{
+            width: 60px;
+        }
+        .footer-link{
+            margin-top: 30px;
+            font-weight: 600;
+        }
+        .footer-links-icon{
+            width: 100% !important;
+            margin-top: 50px !important;
+            gap: 30px;
+        }
+        .icon-link{
+            margin-right: 0px;
+        }
+        .icon-link{
+            font-size: 35px;
+        }
+}
+@media(max-width:361px){
+    /* header-text-content */
+    .header-img{
+        width: 35%;
+    }
+    .header-text-content{
+        width: 248px;
+    }
+    .header-heading{
+        font-size: 25px;
+    }
+    .header-description{
+        font-size: 14px;
+    }
+    /* snippets-title */
+    .section-snippets{
+        margin-top: 50px;
+    }
+    .snippets-title{
+        width: 248px;
+    }
+    .snippets-title-hedaing{
+        font-size: 25px;
+    }
+    .snippets-title-description{
+        font-size: 14px;
+    }
+    .snippets-text-features{
+        width: 80%;
+    }
+    /* section clipboard */
+    .clipboard-text{
+        width: 255.594px;
+    }
+    .clipboard-heading{
+        font-size: 25px;
+    }
+    .clipboard-description{
+        font-size: 14px;
+    }
+    /* section workflow */
+    .workflow-text{
+        width: 255px;
+    }
+    .workflow-heading{
+        font-size:25px
+    }
+    .workflow-description{
+        font-size: 14px;
+    }
+    /* section download */
+    .download-text{
+        width: 245.406px;
+    }
+    .download-heading{
+        font-size:24px
+    }
+    .download-description{
+        font-size: 14px;
+    }
+}
